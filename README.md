@@ -1,3 +1,3 @@
-# Tutorial
+# BananaTech
 
-This is my tutorial repository.
+This is my BananaTech repository.
