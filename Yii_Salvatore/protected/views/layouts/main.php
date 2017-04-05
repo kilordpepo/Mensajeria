@@ -120,22 +120,10 @@
                             <a href="panel"><i class="fa fa-dashboard fa-fw"></i> Inicio</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-envelope fa-fw"></i> Mensajeria<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#">Llamada Perdida</a>
-                                </li>
-                                <li>
-                                    <a href="#">Visitante</a>
-                                </li>
-                                <li>
-                                    <a href="#">Paqueteria</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
+                            <a href="#"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Calendario</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> Calendario</a>
+                            <a href="#"><i class="fa fa-address-book fa-fw" aria-hidden="true"></i> Agenda</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-user fa-fw"></i> <?php echo CHtml::encode(Yii::app()->user->name); ?><span class="fa arrow"></span></a>

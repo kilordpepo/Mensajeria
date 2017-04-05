@@ -42,7 +42,23 @@ class SiteController extends Controller
 			$this->render('panel');
 		}
 	}
+	/**
+	 * Displays the secretaria page
+	 */
+	public function actionSecretaria(){
 
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = 'login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			if (!Yii::app()->user->checkAccess('secretaria'))
+				$this->render('secretaria');
+			else{
+				$this->render('panel');
+			}
+		}
+	}
 	/**
 	 * This is the action to handle external exceptions.
 	 */
@@ -105,8 +121,14 @@ class SiteController extends Controller
 				$model->attributes=$_POST['LoginForm'];
 				// validate user input and redirect to the previous page if valid
 				if($model->validate() && $model->login()){
-					Yii::app()->homeUrl = 'panel';
-					$this->redirect(Yii::app()->homeUrl);
+					if (Yii::app()->user->checkAccess('secretaria')){
+						Yii::app()->homeUrl = 'secretaria';
+						$this->redirect(Yii::app()->homeUrl);
+					}
+					else{
+						Yii::app()->homeUrl = 'panel';
+						$this->redirect(Yii::app()->homeUrl);
+					}
 				}
 			}
 			// display the login form
