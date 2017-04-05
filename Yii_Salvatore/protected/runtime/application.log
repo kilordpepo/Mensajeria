@@ -1019,3 +1019,12 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Salvatore/Yii_Salvatore/panel
 ---
+2017/04/05 20:19:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "panel". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('panel')
+#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Salvatore/Yii_Salvatore/panel
+HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/
+---
