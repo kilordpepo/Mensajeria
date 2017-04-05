@@ -3,6 +3,7 @@
 class SiteController extends Controller
 {
 	public $model;
+	public $defaultAction = 'login';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -26,11 +27,6 @@ class SiteController extends Controller
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
-	public function actionIndex()
-	{
-		Yii::app()->homeUrl = 'site/login';
-		$this->redirect(Yii::app()->homeUrl);
-	}
 	public function actionPanel()
 	{
 		
@@ -54,7 +50,14 @@ class SiteController extends Controller
 	 * Displays the notificaciones page
 	 */
 	public function actionNotificaciones(){
-		$this->render('notificaciones');
+
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = 'login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('notificaciones');
+		}
 	}
 	/**
 	 * Displays the contact page
