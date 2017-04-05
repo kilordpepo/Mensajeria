@@ -26,6 +26,11 @@ class SiteController extends Controller
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
+	public function actionIndex()
+	{
+		Yii::app()->homeUrl = 'site/login';
+		$this->redirect(Yii::app()->homeUrl);
+	}
 	public function actionPanel()
 	{
 		
@@ -45,11 +50,16 @@ class SiteController extends Controller
 	/**
 	 * This is the action to handle external exceptions.
 	 */
-
+	/**
+	 * Displays the notificaciones page
+	 */
+	public function actionNotificaciones(){
+		$this->render('notificaciones');
+	}
 	/**
 	 * Displays the contact page
 	 */
-	public function actionContact()
+	/*public function actionContact()
 	{
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
@@ -70,7 +80,7 @@ class SiteController extends Controller
 			}
 		}
 		$this->render('contact',array('model'=>$model));
-	}
+	}*/
 
 	/**
 	 * Displays the login page

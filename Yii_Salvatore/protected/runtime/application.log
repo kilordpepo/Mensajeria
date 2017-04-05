@@ -989,3 +989,25 @@ Stack trace:
 REQUEST_URI=/Yii_Salvatore/site/index
 HTTP_REFERER=http://localhost/Yii_Salvatore/site/login
 ---
+2017/04/05 03:44:12 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "notificaciones". in C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('notificaciones')
+#1 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('notificaciones')
+#2 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/notificaci...')
+#3 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Yii_Salvatore\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Yii_Salvatore/site/notificaciones
+HTTP_REFERER=http://localhost/Yii_Salvatore/site/panel
+---
+2017/04/05 03:46:03 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#3 C:\xampp\htdocs\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Yii_Salvatore\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Yii_Salvatore/site/index
+HTTP_REFERER=http://localhost/Yii_Salvatore/site/notificaciones
+---

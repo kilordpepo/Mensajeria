@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index"><?php echo $this->pageTitle=Yii::app()->name; ?></a>
+                <a class="navbar-brand" href="panel"><?php echo $this->pageTitle=Yii::app()->name; ?></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -153,7 +153,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a class="text-center" href="notificationspanel.php">
+                            <a class="text-center" href="notificaciones">
                                 <strong>See All Alerts</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -184,7 +184,7 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="index"><i class="fa fa-dashboard fa-fw"></i> Inicio</a>
+                            <a href="panel"><i class="fa fa-dashboard fa-fw"></i> Inicio</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-envelope fa-fw"></i> Mensajeria<span class="fa arrow"></span></a>
