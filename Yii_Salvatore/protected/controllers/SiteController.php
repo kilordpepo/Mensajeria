@@ -28,32 +28,23 @@ class SiteController extends Controller
 	 */
 	public function actionPanel()
 	{
-		$model=new LoginForm;
-
-		// renders the view file 'protected/views/site/index.php'
+		
+		// renders the view file 'protected/views/site/panel.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('panel');
+		//$this->render('panel');
 
-		/*if (Yii::app()->user->isGuest) {
-			$this->renderPartial('login',array('model'=>$model));
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = 'login';
+			$this->redirect(Yii::app()->homeUrl);
 		}
-		else
-			$this->render('panel');*/
+		else{
+			$this->render('panel');
+		}
 	}
 
 	/**
 	 * This is the action to handle external exceptions.
 	 */
-	public function actionError()
-	{
-		if($error=Yii::app()->errorHandler->error)
-		{
-			if(Yii::app()->request->isAjaxRequest)
-				echo $error['message'];
-			else
-				$this->render('error', $error);
-		}
-	}
 
 	/**
 	 * Displays the contact page
@@ -87,24 +78,31 @@ class SiteController extends Controller
 	public function actionLogin()
 	{
 		$model=new LoginForm;
-
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
+		if(Yii::app()->user->isGuest){
+			// if it is ajax validation request
+			if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+			{
+				echo CActiveForm::validate($model);
+				Yii::app()->end();
+			}
+	
+			// collect user input data
+			if(isset($_POST['LoginForm']))
+			{
+				$model->attributes=$_POST['LoginForm'];
+				// validate user input and redirect to the previous page if valid
+				if($model->validate() && $model->login()){
+					Yii::app()->homeUrl = 'panel';
+					$this->redirect(Yii::app()->homeUrl);
+				}
+			}
+			// display the login form
+			$this->renderPartial('login',array('model'=>$model));
 		}
-
-		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+		else{
+			Yii::app()->homeUrl = 'panel';
+			$this->redirect(Yii::app()->homeUrl);
 		}
-		// display the login form
-		$this->render('login',array('model'=>$model));
 	}
 
 	/**
@@ -113,6 +111,7 @@ class SiteController extends Controller
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
+		Yii::app()->homeUrl = 'panel';
 		$this->redirect(Yii::app()->homeUrl);
 	}
 }

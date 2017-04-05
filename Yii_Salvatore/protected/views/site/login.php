@@ -59,7 +59,7 @@ $this->breadcrumbs=array(
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Please Sign In</h3>
+                        <h3 class="panel-title text-center"><b>Inicia Sesión</b></h3>
                     </div>
                     <div class="panel-body">
                         <form role="form">
@@ -73,18 +73,15 @@ $this->breadcrumbs=array(
                                     <?php echo $form->labelEx($model,'password'); ?>
 									<?php echo $form->passwordField($model,'password'); ?>
 									<?php echo $form->error($model,'password'); ?>
-									<p class="hint">
-										Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
-									</p>
                                 </div>
-                                <div class="row rememberMe">
+                                <div class="row rememberMe" style="padding-left:20px; padding-bottom:10px">
 									<?php echo $form->checkBox($model,'rememberMe'); ?>
 									<?php echo $form->label($model,'rememberMe'); ?>
 									<?php echo $form->error($model,'rememberMe'); ?>
 								</div>
                                 <!-- Change this to a button or input when using this as a form -->
                                 
-                                <a href="index" class="btn btn-lg btn-success btn-block"><?php echo CHtml::submitButton('Login'); ?></a>
+                                <a href="#" class="btn btn-lg btn-success btn-block"><?php echo CHtml::submitButton('Login'); ?></a>
                             </fieldset>
                         </form>
                     </div>
@@ -92,6 +89,7 @@ $this->breadcrumbs=array(
             </div>
         </div>
     </div>
+
 
 
 <?php $this->endWidget(); ?>
