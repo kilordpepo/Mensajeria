@@ -1,1 +1,0 @@
-<h1>My Twitter es:<?php echo $twitter;?></h1>
