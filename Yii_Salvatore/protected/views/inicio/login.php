@@ -57,7 +57,7 @@ $this->breadcrumbs=array(
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
                     	<a class="thumbnail"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/construccion.png"></a>
-                        <h3 class="panel-title text-center"><b>Inicio de Sesión</b></h3>
+                        <h3 class="panel-title text-center"><b>Inicio de sesión</b></h3>
                     </div>
                     <div class="panel-body">
                         <form role="form">
