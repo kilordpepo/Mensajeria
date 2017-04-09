@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="../inicio/panel">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver más</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -76,6 +76,7 @@
                         </a>
                     </div>
                 </div>
+                <div class="divider"></div>
                 
             </div>
     		    

@@ -46,10 +46,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="panel"><?php echo $this->pageTitle=Yii::app()->name; ?></a>
+                <a class="navbar-brand" href="../inicio/panel"><?php echo $this->pageTitle=Yii::app()->name; ?></a>
             </div>
             <!-- /.navbar-header -->
-
+            <ul class="nav navbar-top-links navbar-header">
+                <li style="padding-left: 17px">
+                    <a href="../inicio/panel"><i class="fa fa-dashboard fa-fw"></i> Inicio</a>
+                </li>
+                <li>
+                    <a href="../secretaria/panel"> 
+                        <i class="fa fa-comments fa-fw" aria-hidden="true"></i> Secretaría
+                    </a>
+                </li>
+                <li >
+                    <a href="#"> 
+                        <i class="fa fa-plus fa-fw" aria-hidden="true"></i> Módulo #2
+                    </a>
+                </li>
+                <li >
+                    <a href="#"> 
+                        <i class="fa fa-plus fa-fw" aria-hidden="true"></i> Módulo #3
+                    </a>
+                </li>
+            </ul>
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -117,26 +136,25 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="panel"><i class="fa fa-dashboard fa-fw"></i> Inicio</a>
+                            <a href="#"><i class="fa fa-user fa-fw"></i> <?php echo CHtml::encode(Yii::app()->user->name); ?><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#"><i class="fa fa-user fa-fw"></i> Perfil</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-gear fa-fw"></i> Ajustes</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-users fa-fw" aria-hidden="true"></i> Agenda</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Calendario</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-address-book fa-fw" aria-hidden="true"></i> Agenda</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-user fa-fw"></i> <?php echo CHtml::encode(Yii::app()->user->name); ?><span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil</a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-gear fa-fw"></i> Ajustes</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a href="logout"><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesión</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
+                            <a href="logout"><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesión</a>
                         </li>
                     </ul>
                 </div>
