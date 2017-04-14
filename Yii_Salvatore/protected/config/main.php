@@ -31,7 +31,10 @@ return array(
 
 	// application components
 	'components'=>array(
-
+		'authManager'=>array(
+			"class"=>"CDbAuthManager",
+			"connectionID"=>"db",
+		),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -41,7 +44,7 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			//'showScriptName'=>false,
+			'showScriptName'=>false,
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -79,6 +82,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'cverde22@gmail.com',
+		'adminEmail'=>'example@email.com',
 	),
 );

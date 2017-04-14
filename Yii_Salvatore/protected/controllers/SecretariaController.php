@@ -59,6 +59,37 @@ class SecretariaController extends Controller
 			$this->render('../inicio/notificaciones');
 		}
 	}
+
+	/**
+	 * Displays the mensajes page
+	 */
+	public function actionMensajes(){
+
+		$mensaje = new MessageForm;
+
+		$this->render('../secretaria/mensajes');
+	}
+
+	/**
+	 * Displays the llamadas page
+	 */
+	public function actionLlamadas(){
+
+		$mensaje = new MessageForm;
+
+		$this->render('../secretaria/llamadas');
+	}
+
+	/**
+	 * Displays the correos page
+	 */
+	public function actionCorreos(){
+
+		$mensaje = new MessageForm;
+
+		$this->render('../secretaria/correos');
+	}
+
 	/**
 	 * Displays the contact page
 	 */

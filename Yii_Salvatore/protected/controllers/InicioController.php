@@ -58,6 +58,28 @@ class InicioController extends Controller
 	}
 
 	/**
+	 * Displays the register page
+	 */
+	public function actionRegister(){
+
+		$model=new User;
+
+		if(isset($_POST['Users']))
+		{
+			$model->attributes=$_POST['Users'];
+			if($model->save()){
+				Yii::app()->user->setFlash('register','Gracias por registrarte.');
+				$this->refresh();
+			}
+		}
+
+		$this->render('register',array(
+			'model'=>$model,
+		));
+		
+	}
+
+	/**
 	 * Displays the login page
 	 */
 	public function actionLogin()

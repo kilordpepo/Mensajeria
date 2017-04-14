@@ -11,8 +11,8 @@
 	    <meta name="author" content="">
 
 
-	    <!-- Custom CSS -->
-	    <link href="<?php echo Yii::app()->request->baseUrl; ?>/vendor/materialize/css/materialize.min.css" rel="stylesheet">
+	    <!-- Custom CSS 
+	    <link href="<?php echo Yii::app()->request->baseUrl; ?>/vendor/materialize/css/materialize.min.css" rel="stylesheet">-->
 
 	    <!-- Custom CSS -->
 	    <link href="<?php echo Yii::app()->request->baseUrl; ?>/vendor/materialize/css/materialize.css" rel="stylesheet">
@@ -56,7 +56,7 @@ $this->breadcrumbs=array(
             <div class="col m4 offset-m4">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                    	<a class="thumbnail"><img src="<?php echo Yii::app()->request->baseUrl; ?>/img/construccion.png"></a>
+                    	<a class="thumbnail" ><img style="background-color: transparent;" src="<?php echo Yii::app()->request->baseUrl; ?>/img/construccion.png"></a>
                         <h3 class="panel-title text-center"><b>Inicio de sesión</b></h3>
                     </div>
                     <div class="panel-body">
@@ -65,6 +65,7 @@ $this->breadcrumbs=array(
                                 <div class="input-field" >
                                     <?php echo $form->labelEx($model,''); ?>
 									<?php echo $form->textField($model,'usuario',array(
+											'id'=> 'username',
                                     		'class' => 'validate',
                                     		'type'=>'text',
                                     		'placeholder'=>'Usuario'
@@ -74,8 +75,9 @@ $this->breadcrumbs=array(
                                 <div class="input-field validate">
                                     <?php echo $form->labelEx($model,''); ?>
 									<?php echo $form->passwordField($model,'contraseña',array(
+											'id'=> 'password',
                                     		'class' => 'validate',
-                                    		'type'=>'text',
+                                    		'type'=>'password',
                                     		'placeholder'=>'Contraseña'
                                     	)); ?>
 									<a style="color: #F44336"><?php echo $form->error($model,'contraseña'); ?></a>

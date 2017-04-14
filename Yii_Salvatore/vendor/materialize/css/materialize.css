@@ -20,7 +20,7 @@
 
 .panel-default > .panel-heading {
   color: #333;
-  background-color: #f5f5f5;
+  background-color: transparent;
   border-color: #ddd;
 }
 
@@ -29,12 +29,6 @@
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-}
-
-.background-login{
-  background-image: url(../img/construccion.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 
 .text-center {
