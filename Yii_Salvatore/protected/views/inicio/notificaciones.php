@@ -63,6 +63,14 @@
 
 		</div>
 		<!-- /#row -->
+            
+        <!-- Atras -->
+        <div class="row">
+            <div class="col-lg-1" style="margin-bottom: 10px">
+                <?php $this->widget('application.ext.data.CBackButtonWidget')?>
+            </div>
+        </div>
+        <!-- Atras -->
 
 	</div>
 	<!-- /#page-wrapper -->

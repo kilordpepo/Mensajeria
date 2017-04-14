@@ -17733,1556 +17733,402 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Salvatore/inicio/panel
 ---
-2017/04/14 04:22:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "../inicio/login". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:19:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/
+REQUEST_URI=/Salvatore/inicio/panel
 ---
-2017/04/14 04:22:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "/inicio/login". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:20:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/
+REQUEST_URI=/Salvatore/inicio/panel
 ---
-2017/04/14 04:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "panel". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('panel')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/panel
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:22:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:24:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "panel". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('panel')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/panel
+REQUEST_URI=/Salvatore/inicio/panel
 HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/
 ---
-2017/04/14 04:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:23:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/Salvatore/inicio/panel
 ---
-2017/04/14 04:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:23:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/Salvatore/inicio/panel
 ---
-2017/04/14 04:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:23:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/Salvatore/inicio/panel
 ---
-2017/04/14 04:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:29:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/login". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/Salvatore/inicio/login
 ---
-2017/04/14 04:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:24:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:36:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('panel')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/panel
+HTTP_REFERER=http://localhost/
 ---
-2017/04/14 04:24:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.woff
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
+HTTP_REFERER=http://localhost/vendor/materialize/css/materialize.css
 ---
-2017/04/14 04:25:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
+2017/04/14 04:47:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Salvatore/inicio/panel". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
 Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Salvatore/inici...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
 #3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:27:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/p...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/panel
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/inicio/login
----
-2017/04/14 04:27:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:27:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:27:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:27:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:27:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:27:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/p...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/panel
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/inicio/login
----
-2017/04/14 04:28:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:28:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/p...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/panel
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/inicio/login
----
-2017/04/14 04:29:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:29:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:29:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:29:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:29:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:29:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:03 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/l...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/login
----
-2017/04/14 04:30:09 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/l...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/login
----
-2017/04/14 04:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/p...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/panel
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/inicio/login
----
-2017/04/14 04:30:29 [error] [exception.CException] CException: InicioController cannot find the requested view "inicio/panel". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:878
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(782): CController->renderPartial('inicio/panel', NULL, true)
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\protected\controllers\InicioController.php(42): CController->render('inicio/panel')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\actions\CInlineAction.php(49): InicioController->actionPanel()
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
-#5 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('')
-#7 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio')
-#8 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#9 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/
----
-2017/04/14 04:30:35 [error] [exception.CException] CException: InicioController cannot find the requested view "inicio/panel". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:878
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(782): CController->renderPartial('inicio/panel', NULL, true)
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\protected\controllers\InicioController.php(42): CController->render('inicio/panel')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\actions\CInlineAction.php(49): InicioController->actionPanel()
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
-#5 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#6 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('')
-#7 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio')
-#8 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#9 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#10 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/
----
-2017/04/14 04:30:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:30:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:31:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:32:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/p...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/panel
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/inicio/login
----
-2017/04/14 04:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "inicio". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php:483
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CController.php(270): CController->missingAction('inicio')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(282): CController->run('inicio')
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('inicio/inicio/p...')
-#3 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#4 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#5 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/inicio/inicio/panel
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/inicio/login
----
-2017/04/14 04:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:34:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:47:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:47:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff2". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff2
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:47:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:47:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.woff". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.woff
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:47:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Regular.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Regular.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
----
-2017/04/14 04:47:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/materialize/fonts/roboto/Roboto-Bold.ttf". in C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php:286
-Stack trace:
-#0 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/material...')
-#1 C:\xampp\htdocs\Salvatore\Yii_Salvatore\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
-#2 C:\xampp\htdocs\Salvatore\Yii_Salvatore\index.php(13): CApplication->run()
-#3 {main}
-REQUEST_URI=/Salvatore/Yii_Salvatore/vendor/materialize/fonts/roboto/Roboto-Bold.ttf
-HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/vendor/materialize/css/materialize.css
+REQUEST_URI=/Salvatore/inicio/panel
+HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/
 ---

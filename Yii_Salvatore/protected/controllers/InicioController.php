@@ -58,6 +58,76 @@ class InicioController extends Controller
 	}
 
 	/**
+	 * Displays the Mensajes Importantes page
+	 */
+	public function actionMensajes_importantes(){
+
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../inicio/mensajes_importantes');
+		}
+	}
+
+	/**
+	 * Displays the Mensajes Urgentes page
+	 */
+	public function actionMensajes_urgentes(){
+
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../inicio/mensajes_urgentes');
+		}
+	}
+
+	/**
+	 * Displays the Mensajes comunes page
+	 */
+	public function actionMensajes_comunes(){
+
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../inicio/mensajes_comunes');
+		}
+	}
+
+	/**
+	 * Displays the Llamadas perdidas page
+	 */
+	public function actionLlamadas_perdidas(){
+
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../inicio/llamadas_perdidas');
+		}
+	}
+
+	/**
+	 * Displays the Correo page
+	 */
+	public function actionCorreo(){
+
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../inicio/correo');
+		}
+	}
+
+	/**
 	 * Displays the register page
 	 */
 	public function actionRegister(){

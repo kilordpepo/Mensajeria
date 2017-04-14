@@ -23,7 +23,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="../inicio/mensajes_urgentes">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver más</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="../inicio/mensajes_importantes">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver más</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="../inicio/panel">
+                        <a href="../inicio/mensajes_comunes">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver más</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="../inicio/llamadas_perdidas">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver más</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -147,7 +147,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="../inicio/correo">
                             <div class="panel-footer">
                                 <span class="pull-left">Ver más</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -163,6 +163,5 @@
             <!-- /.row Llamadas-->
         </div>
        	<!-- /#page-wrapper -->
-
     </div>
     <!-- /#wrapper -->
