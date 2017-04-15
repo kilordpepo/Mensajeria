@@ -1,0 +1,91 @@
+CREATE TABLE contacto
+(
+  usuario integer NOT NULL,
+  tipocontacto integer NOT NULL,
+  contacto text NOT NULL,
+  CONSTRAINT contacto_pkey PRIMARY KEY (usuario, tipocontacto)
+);
+CREATE TABLE direccion
+(
+  id serial NOT NULL,
+  nombre text NOT NULL,
+  tipo text NOT NULL,
+  direccion integer,
+  CONSTRAINT direccion_pkey PRIMARY KEY (id),
+  CONSTRAINT direccion_direccion_fkey FOREIGN KEY (direccion)
+      REFERENCES direccion (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+CREATE TABLE notificacion
+(
+  usuariog integer NOT NULL,
+  usuarior integer NOT NULL,
+  urgencia integer NOT NULL,
+  notificacion integer NOT NULL,
+  mensaje text NOT NULL,
+  leido text,
+  CONSTRAINT notificacion_pkey PRIMARY KEY (usuariog, usuarior, urgencia, notificacion)
+);
+CREATE TABLE privilegio
+(
+  id serial NOT NULL,
+  nombre text NOT NULL,
+  descripcion text,
+  CONSTRAINT privilegio_pkey PRIMARY KEY (id)
+);
+CREATE TABLE privilegio_rol
+(
+  privilegio integer NOT NULL,
+  rol integer NOT NULL,
+  CONSTRAINT privilegio_rol_pkey PRIMARY KEY (privilegio, rol)
+);
+CREATE TABLE rol
+(
+  id serial NOT NULL,
+  nombre text NOT NULL,
+  descripcion text,
+  CONSTRAINT rol_pkey PRIMARY KEY (id)
+);
+CREATE TABLE tipo_contacto
+(
+  id serial NOT NULL,
+  nombre text NOT NULL,
+  descripcion text,
+  CONSTRAINT tipo_contacto_pkey PRIMARY KEY (id)
+);
+CREATE TABLE tipo_notificacion
+(
+  id serial NOT NULL,
+  nombre text NOT NULL,
+  descripcion text,
+  CONSTRAINT tipo_notificacion_pkey PRIMARY KEY (id)
+);
+CREATE TABLE tipo_urgencia
+(
+  id serial NOT NULL,
+  nombre text NOT NULL,
+  descripcion text,
+  CONSTRAINT tipo_urgencia_pkey PRIMARY KEY (id)
+);
+CREATE TABLE usuario
+(
+  cedula text NOT NULL,
+  primer_nombre text NOT NULL,
+  segundo_nombre text,
+  primer_apellido text NOT NULL,
+  segundo_apellido text,
+  fecha_nacimiento date NOT NULL,
+  rol integer NOT NULL,
+  CONSTRAINT usuario_pkey PRIMARY KEY (cedula),
+  CONSTRAINT usuario_rol_fkey FOREIGN KEY (rol)
+      REFERENCES rol (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+CREATE TABLE usuario_direccion
+(
+  usuario integer NOT NULL,
+  direccion integer NOT NULL,
+  fecha_inicio date NOT NULL,
+  fecha_fin date,
+  CONSTRAINT usuario_direccion_pkey PRIMARY KEY (usuario, direccion)
+);
