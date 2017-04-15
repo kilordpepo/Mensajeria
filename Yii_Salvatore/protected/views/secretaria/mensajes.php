@@ -9,10 +9,22 @@
             </div>
             <!-- /.row -->
             <div class="row">
-            <div class="col-lg-8">
-                
-            </div>
-    		    
+                <div class="col-lg-8">
+                    <form action="#">
+                        <p>
+                          <input name="group1" type="radio" id="test1" />
+                          <label for="test1">Red</label>
+                        </p>
+                        <p>
+                          <input name="group1" type="radio" id="test2" />
+                          <label for="test2">Yellow</label>
+                        </p>
+                        <p>
+                          <input class="with-gap" name="group1" type="radio" id="test3"  />
+                          <label for="test3">Green</label>
+                        </p>
+                    </form>
+                </div>    		    
     		</div>
     		<!-- /.row -->
             

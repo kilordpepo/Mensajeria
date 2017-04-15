@@ -18132,3 +18132,306 @@ Stack trace:
 REQUEST_URI=/Salvatore/inicio/panel
 HTTP_REFERER=http://localhost/Salvatore/Yii_Salvatore/
 ---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/css/bootstrap.min.css". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/cs...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/css/stylish-portfolio.css". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/cs...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/css/stylish-portfolio.css
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/css/full-slider.css". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/cs...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/css/full-slider.css
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/css/custom.css". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/css/c...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/css/custom.css
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/css/lightbox.css". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/cs...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/css/lightbox.css
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/font-awesome/css/font-awesome.min.css". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/fo...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/js/jquery.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/js...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/js/jquery.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/jquery.numeric.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/jq...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/jquery.numeric.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/js/bootstrap.min.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/js...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/login.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/lo...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/login.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/lostpass.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/lo...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/lostpass.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/register.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/re...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/register.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/contacto.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/co...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/contacto.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/img/logo full vertical peq.jpg". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/im...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/img/logo%20full%20vertical%20peq.jpg
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/img/bg peq.jpg". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/im...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/img/bg%20peq.jpg
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/img/maunaloahome.png". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/im...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/img/maunaloahome.png
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/img/favicon.ico". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/im...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/img/favicon.ico
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/js/bootstrap.min.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/js...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/source/js/jquery.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/source/js...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/source/js/jquery.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/jquery.numeric.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/jq...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/jquery.numeric.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/login.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/lo...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/login.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/register.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/re...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/register.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/lostpass.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/lo...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/lostpass.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/14 21:00:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "views/app/js/contacto.js". in C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/app/js/co...')
+#1 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/app/js/contacto.js
+HTTP_REFERER=http://localhost/Otras_Paginas/Pagina_CEI/
+---
+2017/04/15 02:05:01 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Framework Yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\xampp\htdocs\Framework Yii\framework\web\CFormModel.php(39): CrudCode->init()
+#6 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\Framework Yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/crud/index
+HTTP_REFERER=http://localhost/gii
+---
+2017/04/15 02:09:32 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Framework Yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\xampp\htdocs\Framework Yii\framework\web\CFormModel.php(39): CrudCode->init()
+#6 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\Framework Yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/crud/index
+HTTP_REFERER=http://localhost/gii
+---
+2017/04/15 02:09:38 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Framework Yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\xampp\htdocs\Framework Yii\framework\web\CFormModel.php(39): CrudCode->init()
+#6 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\Framework Yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/crud/index
+HTTP_REFERER=http://localhost/gii
+---
+2017/04/15 02:17:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\Framework Yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\Framework Yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\Framework Yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\xampp\htdocs\Framework Yii\framework\web\CFormModel.php(39): CrudCode->init()
+#6 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\Framework Yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\Framework Yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\Framework Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\Framework Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 C:\xampp\htdocs\Framework Yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/crud/index
+HTTP_REFERER=http://localhost/gii
+---

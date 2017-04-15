@@ -9,7 +9,12 @@ class RegisterForm extends CFormModel
 {
 	public $usuario;
 	public $contraseña;
+	public $contraseña_r;
+	public $telefono_celular;
+	public $telefono_hab;
 	public $email;
+	public $tipo_p=false;
+	public $tipo_s=false;
 
 	private $_identity;
 
@@ -21,12 +26,8 @@ class RegisterForm extends CFormModel
 	public function rules()
 	{
 		return array(
-			// username and password are required
-			array('usuario, contraseña', 'required', 'message'=>'{attribute} no puede estar vacio.'),
-			// rememberMe needs to be a boolean
-			array('rememberMe', 'boolean'),
-			// password needs to be authenticated
-			array('contraseña', 'authenticate'),
+			// usuario y contraseña son requeridos
+			array('usuario, contraseña, contraseña_r, telefono_hab, telefono_celular, email', 'required', 'message'=>'{attribute} no puede estar vacio.'),
 		);
 	}
 
@@ -36,7 +37,9 @@ class RegisterForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'rememberMe'=>'Recordar mi usuario y contraseña.',
+			'tipo_p'=>'Personal',
+			'tipo_s'=>'Secretaria',
+
 		);
 	}
 
