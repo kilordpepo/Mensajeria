@@ -67,17 +67,34 @@ class SecretariaController extends Controller
 
 		$mensaje = new MessageForm;
 
-		$this->render('../secretaria/mensajes');
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			if(isset($_POST['MessageForm']))
+			{
+				$mensaje->attributes=$_POST['MessageForm'];
+				if($mensaje->validate() && $mensaje->login()){
+					$this->render('../secretaria/mensajes',array('mensaje'=>$mensaje));
+				}
+			}
+			$this->render('../secretaria/mensajes',array('mensaje'=>$mensaje));
+		}
 	}
 
 	/**
-	 * Displays the llamadas page
+	 * Displays the llamdas page
 	 */
 	public function actionLlamadas(){
 
-		$mensaje = new MessageForm;
-
-		$this->render('../secretaria/llamadas');
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../secretaria/llamadas');
+		}
 	}
 
 	/**
@@ -85,9 +102,13 @@ class SecretariaController extends Controller
 	 */
 	public function actionCorreos(){
 
-		$mensaje = new MessageForm;
-
-		$this->render('../secretaria/correos');
+		if (Yii::app()->user->isGuest) {	
+			Yii::app()->homeUrl = '../inicio/login';
+			$this->redirect(Yii::app()->homeUrl);
+		}
+		else{
+			$this->render('../secretaria/correos');
+		}
 	}
 
 	/**
@@ -123,25 +144,16 @@ class SecretariaController extends Controller
 	{
 		$model=new LoginForm;
 		if(Yii::app()->user->isGuest){
-			// if it is ajax validation request
-			if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-			{
-				echo CActiveForm::validate($model);
-				Yii::app()->end();
-			}
-	
-			// collect user input data
 			if(isset($_POST['LoginForm']))
 			{
 				$model->attributes=$_POST['LoginForm'];
-				// validate user input and redirect to the previous page if valid
 				if($model->validate() && $model->login()){
 					Yii::app()->homeUrl = '../inicio/panel';
 					$this->redirect(Yii::app()->homeUrl);
 				}
 			}
 			// display the login form
-			$this->renderPartial('../inicio/login',array('model'=>$model));
+			$this->renderPartial('login',array('model'=>$model));
 		}
 		else{
 			Yii::app()->homeUrl = '../inicio/panel';

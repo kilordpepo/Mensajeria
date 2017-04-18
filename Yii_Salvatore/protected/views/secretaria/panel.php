@@ -1,4 +1,4 @@
-	<div id="wrapper">
+    <div id="wrapper">
 
         <div id="page-wrapper">
             <div class="row">
@@ -59,12 +59,12 @@
                 </div>
                 </a>
             </div>
-    		    
-    		</div>
-    		<!-- /.row -->
+                
+            </div>
+            <!-- /.row -->
             
         </div>
-       	<!-- /#page-wrapper -->
+        <!-- /#page-wrapper -->
 
     </div>
     <!-- /#wrapper -->
