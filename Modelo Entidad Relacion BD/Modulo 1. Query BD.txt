@@ -89,3 +89,14 @@ CREATE TABLE usuario_direccion
   fecha_fin date,
   CONSTRAINT usuario_direccion_pkey PRIMARY KEY (usuario, direccion)
 );
+CREATE TABLE datos_usuario
+(
+  id serial NOT NULL,
+  nombre text,
+  clave text,
+  usuario text,
+  CONSTRAINT datos_usuario_pkey PRIMARY KEY (id),
+  CONSTRAINT datos_usuario_usuario_fkey FOREIGN KEY (usuario)
+      REFERENCES usuario (cedula) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+)
